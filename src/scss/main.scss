@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/footer";
+@import "./components/card";
+@import "./components/card_mini";
+@import "./components/login";
+@import "./components/artem";
+@import "./components/artem4";
+@import "./components/mizam";
+@import "./components/mizam2";
+
+@import "./components/mizam3";
+@import "./components/nastia";

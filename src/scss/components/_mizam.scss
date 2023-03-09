@@ -1,0 +1,118 @@
+
+.chats{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+}
+
+.chat__top{
+  margin-top: 41px;
+}
+
+.chat{
+  display: flex;
+  margin-left: 24px;
+}
+
+.chat__avatar{
+  height: 52px;
+}
+
+.avatar__on, .avatar__off{
+  position: relative;
+}
+
+.avatar__on span{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #21E841;
+  border-radius: 50%;
+  left: 6px;
+  top: 42px;
+}
+
+.avatar__off span{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #9A9E9C;
+  border-radius: 50%;
+  right: 6px;
+  bottom: 4px;
+}
+
+.chat__texts{
+  margin-left: 12px;
+}
+
+.chat__name{
+  color: #000E08;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 9px;
+  margin-bottom: 6px;
+}
+
+.chat__text{
+  color: #797C7B;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.chat__times{
+  margin: 9px auto 0 88px;
+  text-align: right;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.time__text{
+  color: #797C7B;
+  margin-bottom: 12.15px;
+}
+
+.number__messages{
+  display: inline-block;
+  color: #FFFFFF;
+  background: #F31816;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50%;
+}
+
+.main__chat{
+  display: flex;
+  margin-top: 13px;
+  padding: 10px 0 10px 17px;
+  background: #F1F6FA;
+}
+
+.main__time__text{
+  display: inline;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #797C7B;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.chat__bottoms{
+  margin: 8px auto auto 16px;
+}
+
+.chat__bottoms__trash{
+  margin-left: 13px;
+}
+
+.another__chat{
+  margin-top: 20px;
+}
+
+.another__chat1{
+  margin-top: 27px;
+}
